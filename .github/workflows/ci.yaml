@@ -1,0 +1,25 @@
+
+name: CI pipeline
+
+on:
+  push:
+    branches:
+      - "**" # matches every branch
+      
+jobs:
+  lint:
+    name: checkout
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Running isort.
+        run: isort --check-only  .
+
+      - name: Running flake8
+        run: flake8 .
