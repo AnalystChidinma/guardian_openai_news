@@ -5,7 +5,7 @@ This project demonstrates a complete workflow for extracting news articles from 
 Beyond the API extraction itself, the main objective of this project was to **practice Continuous Integration (CI)** to ensure that the code remains clean, consistent, and production-ready.
 The script interacts with **The Guardian API** to retrieve articles based on a **OpenAI**.
 
-***The main goal of this project is to Integrate CI workflows to enforce code quality before merging into `main***.
+***The main goal of this project is to Integrate CI workflows to enforce code quality before merging into main***.
 
 ## Continuous Integration (CI) — My Main Focus
 
@@ -23,7 +23,7 @@ I implemented CI using **GitHub Actions**:
 
 - I created a new branch 
 -  made a Pull Request (PR) 
-- The `main` branch receives an update  
+- The main branch receives an update  
 
 Before merging, CI checks **must pass**.
 
