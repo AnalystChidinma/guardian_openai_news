@@ -62,4 +62,3 @@ def guardian_api():
 if __name__ == "__main__":
 
     guardian_api()
-    
