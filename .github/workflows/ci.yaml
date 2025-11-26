@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - "**" # matches every branch
+    paths:
+      - "**.py" # pipeline would run anytime you push a python file (.py).
       
 jobs:
   lint:
